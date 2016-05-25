@@ -34,7 +34,7 @@ public class RecorderOpbaCamService extends Service implements TextureView.Surfa
     private static final String ARQUIVE_EXTENSION = ".mp4";
 
 
-    //OBS: Must be higther or equals 5 seconds (5000)
+    //OBS: Must be higther or equals 5 seconds (5000) or 0 to not cut the video
     //1000 = 1 Segundo
     //5000 = 5 Segundos
     //1000*60 = 1 Minuto
